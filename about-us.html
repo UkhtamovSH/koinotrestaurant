@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Koinot Restaurant</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <!-- Navigation Section -->
+    <section class="navigationFixedSection navBackMain position-relative mb-5">
+        <div class="container-fluid menuContainer2">
+            <div class="container ">
+                <div class="navFlex">
+                    <div class="">
+                        <a href="" class="navFlexText navFlexTextNumber">
+                            <img src="img/svg/nav_phone.svg" class="mt-n1 mr-2" alt="">
+                            +998 97 777 77 77
+                        </a>
+                        <div class=""></div>
+                    </div>
+                    <div class="">
+                        <div class="navFlex2">
+                            <div class="navFlex2Div1">
+                                <a href="signin.html" class="navFlexText navFlex2Text">
+                                    <img src="img/svg/nav_signin.svg" class="mt-n1 mr-2" alt="">
+                                    Sign In
+                                </a>
+                            </div>
+                            <div class="navFlex2Div2 text-white">
+                                <img src="img/svg/nav_global.svg" class="mt-n1 mr-2 d-inline-block" alt="">
+                                <div class="app_nav_flex_div_2_lang2 d-inline-block">
+                                    <select class="form-control" name="select1" id="select1"
+                                        style="-webkit-appearance: none;">
+                                        <option value="1">English</option>
+                                        <option value="2">Русский</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid menuContainer">
+            <nav class="">
+                <div class="container">
+                    <div class="">
+                        <div class="d-flex justify-content-between align-items-center h-100">
+                            <div class="">
+                                <a href="index.html" class="text-decoration-none">
+                                    <img src="img/svg/Logo.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="">
+                                <div class="menuContainerUl" id="">
+                                    <a href="menu.html" class=" ">MENU</a>
+                                    <a href="events.html" class=" ">EVENTS</a>
+                                    <a href="about-us.html" class=" ">ABOUT US</a>
+                                    <a href="reservation.html" class=" ">Reservation</a>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="d-flex align-items-center h-100">
+                                    <div class="">
+                                        <div class="menuContainerSearch">
+                                            <form class="navbar-form navbar-right navbar-form-search" role="search">
+                                                <div class="search-form-container-flex">
+                                                    <div class="">
+                                                        <div class="search-form-container hdn"
+                                                            id="search-input-container">
+                                                            <div class="search-input-group">
+                                                                <div class="d-flex align-items-center h-100">
+                                                                    <div class="">
+                                                                        <span class="icon icon-deleteX mr-2"
+                                                                            style="background-color: #000000!important"
+                                                                            aria-hidden="true"
+                                                                            id="hide-search-input-container">
+                                                                        </span>
+                                                                    </div>
+                                                                    <div class="">
+                                                                        <div class="form-group">
+                                                                            <input type="text"
+                                                                                class="searchForInput form-control"
+                                                                                placeholder="Search for...">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="">
+                                                        <button type="submit" class="btn btn-default"
+                                                            id="search-button">
+                                                            <img src="img/svg/nav_search.svg" aria-hidden="true" alt="">
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="">
+                                        <a href="order-cart.html" class="text-decoration-none menuContainerBacketLink">
+                                            <div class="menuContainerBacket d-inline-block position-relative">
+                                                <img src="img/svg/nav_backet.svg" alt="">
+                                                <div class="backetCountMain">
+                                                    <div class="backetCountMainFlex">
+                                                        <p class="backetCountText">10</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="">
+                                        <div class="menuContainerIcon">
+                                            <span class="text-white" style="font-size:30px;cursor:pointer"
+                                                onclick="openNav()">&#9776;</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div id="myNav" class="overlay">
+            <span class="closebtn icon icon-deleteX bg-white" onclick="closeNav()"></span>
+            <div class="overlay-content">
+                <form class="mobile-search-form" role="search">
+                    <div class="search-form-container-flex2">
+                        <div class="mr-2">
+                            <div class="form-group">
+                                <input type="text" class="searchForInput2 form-control" placeholder="Search for...">
+                            </div>
+                        </div>
+                        <div class="">
+                            <button type="submit" class="btn btn-default">
+                                <img src="img/svg/nav_search.svg" aria-hidden="true" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                <a href="menu.html" class=" ">Menu</a>
+                <a href="events.html" class=" ">Events</a>
+                <a href="about-us.html" class=" ">About Us</a>
+                <a href="reservation.html" class=" ">Reservation</a>
+            </div>
+        </div>
+
+
+        <div class="navigationFixedBack"></div>
+        <img src="img/header_img_2.png" class="navigationFixedBackImg" alt="">
+        <div class="container app_header_info_1_main">
+            <div class="app_header_info_1">
+                <div class="navigationFixedBackInfos">
+                    <p class="app_title_header_2 my-3">
+                        About Us
+                    </p>
+                    <div class="app_title_header_hr_flex">
+                        <div class="">
+                            <div class="app_title_header_hr_1"></div>
+                        </div>
+                        <div class="">
+                            <p class="app_title_header_hr_text">
+                                THE most delicious Meals in the world
+                            </p>
+                        </div>
+                        <div class="">
+                            <div class="app_title_header_hr_1"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--About Restaurant-->
+    <section class="our_menu2_section mb-5">
+        <div class="container">
+            <div class="app_title_main">
+                <div class="another_links_flex">
+                    <div class="">
+                        <a href="index.html" class="another_links_to">
+                            HOME
+                        </a>
+                    </div>
+                    <div class="mx-2">
+                        <img src="img/svg/anothetLinksArrow.svg" class="another_links_to_img" alt="">
+                    </div>
+                    <div class="">
+                        <a href="about-us.html" class="another_links_to">
+                            ABOUT US
+                        </a>
+                    </div>
+                </div>
+                <p class="app_title">
+                    About Restaurant
+                </p>
+            </div>
+            <div class="row">
+                <div class="about_restaurant2_col col-sm-12 col-md-6">
+                    <div class="">
+                        <p class="about_text1">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum nisl neque, suspendisse
+                            adipiscing morbi ac iaculis ac, elementum. Sapien, nec mauris mi nulla sed sit. Augue
+                            blandit ac
+                            dui
+                            tellus a vitae vestibulum, dictum. Mauris integer velit ullamcorper quam tempus donec in
+                            justo.
+                            Et
+                            at magna maecenas dolor pellentesque ac a. Donec erat rhoncus nibh dictumst. Sed cursus
+                            volutpat
+                            cras ac vitae. Aliquam dictumst cursus mauris sed amet eu.
+                        </p>
+                    </div>
+                </div>
+                <div class="about_restaurant2_col col-sm-12 col-md-6 ">
+                    <div class="about_restaurant2_col_flex">
+                        <p class="about_text1">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum nisl neque, suspendisse
+                            adipiscing morbi ac iaculis ac, elementum. Sapien, nec mauris mi nulla sed sit. Augue
+                            blandit ac
+                            dui
+                            tellus a vitae vestibulum, dictum. Mauris integer velit ullamcorper quam tempus donec in
+                            justo.
+                            Et
+                            at magna maecenas dolor pellentesque ac a. Donec erat rhoncus nibh dictumst. Sed cursus
+                            volutpat
+                            cras ac vitae. Aliquam dictumst cursus mauris sed amet eu.
+                        </p>
+                    </div>
+                </div>
+                <div class="about_restaurant2_col2 col-md-12">
+                    <img src="img/about_restaurant_img.png" class="about_restaurant2_col2_img" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Reservation Section-->
+    <section class="reservation_section">
+        <div class="reservation_section_layer"></div>
+        <img src="img/reservation_section_img.png" class="reservation_section_img" alt="">
+        <div class="container">
+            <div class="reservation_section_info">
+                <div class="">
+                    <p class="app_title_2">Reservation</p>
+                    <div class="app_sub_title_11_flex">
+                        <p class="app_sub_title_11">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare congue diam, urna cras eu
+                            bibendum.
+                            Tincidunt eget elit magna aliquam enim.
+                        </p>
+                    </div>
+                    <button class="app_btn_1">BOOK A TABLE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Events Section -->
+    <section class="our_events_section">
+        <div class="container">
+            <div class="app_title_main">
+                <p class="app_title">
+                    Our Events
+                </p>
+                <div class="appTitleFlex">
+                    <div class="">
+                        <p class="app_sub_title_1">
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Condimentum nisl neque
+                        </p>
+                    </div>
+                    <div class="">
+                        <a href="events.html" class="app_sub_title_2">
+                            See All Events <img src="img/svg/appTitleArrow.svg" class="ml-2" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="our_events_card_col col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                    <a href="events-inside.html" class="text-decoration-none">
+                        <div class="our_events_card">
+                            <div class="our_event_img_layer"></div>
+                            <img src="img/our_event_img_1.png" class="our_event_img" alt="">
+                            <div class="mt-auto our_event_info">
+                                <p class="our_events_text_1">Steak Master Class</p>
+                                <p class="our_events_text_2">
+                                    May 1-5, from 18:00 to 22:00
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="our_events_card_col col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                    <a href="events-inside.html" class="text-decoration-none">
+                        <div class="our_events_card">
+                            <div class="our_event_img_layer"></div>
+                            <img src="img/our_event_img_2.png" class="our_event_img" alt="">
+                            <div class="mt-auto our_event_info">
+                                <p class="our_events_text_1">Live Music</p>
+                                <p class="our_events_text_2">
+                                    Every Saturday, from 18:00 to 22:00
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="our_events_card_col col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                    <a href="events-inside.html" class="text-decoration-none">
+                        <div class="our_events_card">
+                            <div class="our_event_img_layer"></div>
+                            <img src="img/our_event_img_3.png" class="our_event_img" alt="">
+                            <div class="mt-auto our_event_info">
+                                <p class="our_events_text_1">Happy Women’s Day</p>
+                                <p class="our_events_text_2">
+                                    March 5-9, from 18:00 to 22:00
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer Section-->
+    <section class="footerSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <a href="index.html" class="text-decoration-none">
+                        <img src="img/svg/Logo.svg" alt="">
+                    </a>
+                    <p class="footerText" style="margin-top: 16px;">
+                        The Tallest Restaurant in Tashkent
+                    </p>
+                    <div class="d-flex" style="margin-top: 24px;">
+                        <div class="mr-3">
+                            <a href="" class="text-decoration-none">
+                                <img src="img/svg/social1.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="mr-3">
+                            <a href="" class="text-decoration-none">
+                                <img src="img/svg/social2.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="mr-3">
+                            <a href="" class="text-decoration-none">
+                                <img src="img/svg/social3.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="mr-3">
+                            <a href="" class="text-decoration-none">
+                                <img src="img/svg/social4.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 footerLinks">
+                    <div class="footerFlex">
+                        <div class="">
+                            <a href="reservation.html" class="footerText">
+                                Reservation
+                            </a>
+                            <a href="menu.html" class="footerText">
+                                Restaurant Menu
+                            </a>
+                            <a href="about-us.html" class="footerText">
+                                About Restaurant
+                            </a>
+                            <a href="events.html" class="footerText">
+                                Events
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-5 col-xl-5 footerLinks">
+                    <div class="footerFlex">
+                        <div class="">
+                            <div class="d-flex">
+                                <div class="footerText">
+                                    <div class="d-flex align-items-center h-100">
+                                        <div class="mr-2">
+                                            <img src="img/svg/footerContact1.svg" alt="">
+                                        </div>
+                                        <div class="">
+                                            +998 97 777 77 77
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <div class="footerText">
+                                    <div class="d-flex align-items-center h-100">
+                                        <div class="mr-2">
+                                            <img src="img/svg/footerContact2.svg" alt="">
+                                        </div>
+                                        <div class="">
+                                            info@koinot.uz
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <div class="footerText">
+                                    <div class="d-flex align-items-center h-100">
+                                        <div class="mr-2">
+                                            <img src="img/svg/footerContact3.svg" alt="">
+                                        </div>
+                                        <div class="">
+                                            Amir Temur Avenue, Tashkent
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footerFlex2">
+                <div class="">
+                    <p class="footerText">
+                        © Copyright 2021. Koinot Restaurant
+                    </p>
+                </div>
+                <div class="">
+                    <p class="footerText footerText2">
+                        Made by <a href="http://tuitsoft.uz/" class="footerTextLink">tuitsoft.uz</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript">
+
+</script>
+
+</html>
